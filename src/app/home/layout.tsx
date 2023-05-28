@@ -22,8 +22,9 @@ export default function RootLayout({
         <h2>layout 2</h2>
 
         {children}
-
+        <hr />
         {contact}
+        <hr />
         {dashboard}
       </body>
     </html>

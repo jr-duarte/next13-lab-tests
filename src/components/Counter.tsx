@@ -8,7 +8,12 @@ export default function Counter() {
   return (
     <div>
       <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>Click me</button>
+      <button
+        className="bg-blue-400 p-2 hover:bg-blue-800"
+        onClick={() => setCount(count + 1)}
+      >
+        Click me
+      </button>
     </div>
   );
 }

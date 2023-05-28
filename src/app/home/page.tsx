@@ -1,4 +1,5 @@
 import Counter from "@/components/Counter";
+import SectionFormServerAction from "@/sections/SectionFormServerAction";
 import SectionFaq from "@/sections/SectionFaq";
 import httpServer from "@/services/httpServer";
 
@@ -14,8 +15,9 @@ export default async function Home() {
     <div>
       <Counter />
       <hr />
-
       <SectionFaq items={data} />
+      <hr />
+      <SectionFormServerAction />
     </div>
   );
 }
